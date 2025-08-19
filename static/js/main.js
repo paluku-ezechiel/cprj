@@ -32,5 +32,26 @@ if($('.menu-trigger').length){
   });
 }
 
+// Partners carousel
+if ($('.partners-carousel').length) {
+  $('.partners-carousel').owlCarousel({
+    loop: true,
+    margin: 24,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: true,
+    navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+    responsive: {
+      0:   { items: 2 },
+      576: { items: 3 },
+      768: { items: 4 },
+      992: { items: 5 },
+      1200:{ items: 6 }
+    }
+  });
+}
+
 });
 
