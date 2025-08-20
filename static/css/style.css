@@ -957,3 +957,11 @@ Services & Principes Page Overrides
 .hero-carousel .carousel-caption h1 {
   text-shadow: 0 4px 16px rgba(0,0,0,0.6);
 }
+
+/* Section-specific overrides for light backgrounds */
+.testimonials .card-body p,
+.blog-news .card .card-text,
+.services .card .card-text,
+.contact-home p {
+  color: #2a2a2a;
+}
